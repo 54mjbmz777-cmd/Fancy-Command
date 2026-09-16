@@ -1,0 +1,5 @@
+The server started successfully.
+Error: Login failed.
+The user tried again.
+ERROR: Database connection failed.
+Error: The file is missing.
