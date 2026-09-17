@@ -4,7 +4,7 @@ const filename = process.argv[2];
 const searchWord = process.argv[3];
 const numberOfLines = Number(process.argv[4]);
 
-if (!filename || !searchWord || !numberOfLines) {
+if (process.argv.length !== 5) {
   console.log("Usage: node fancysearch.js <filename> <searchWord> <numberOfLines>");
   process.exit();
 }
